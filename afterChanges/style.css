@@ -35,6 +35,7 @@ a:hover {
 }
 
 #bloc-0{
+    padding-bottom: 5px;
     border-bottom: 4px #F3976C solid;
 }
 
@@ -168,12 +169,11 @@ a:hover {
     text-align: inherit;
 }
 .nav > li a{
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .nav > li a:hover,
 .nav > li a:focus {
-    font-weight: bold;
-    color: black!important;
+    color: #F3976C!important;
     background: transparent;
 }
 
@@ -447,12 +447,18 @@ h5,
 h6,
 p,
 label,
-.btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: black;
 }
+
+.btn{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: white;
+}
+
 
 .container {
     max-width: 1000px;
@@ -490,8 +496,9 @@ p {
     font-family: "Open Sans";
 }
 
+
 .cta-hero {
-    margin-top: 22px;
+    margin-top: 10px;
     color: white!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -596,8 +603,10 @@ h3 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background: bottom no-repeat ;
+    background-image: url("img/contact-background-page.jpg");
 }
+
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -666,6 +675,41 @@ h3 {
 #bloc-4-portfolio .col-sm-6{
     padding-bottom: 40px;
 }
+#bloc-0 .bloc-sm{
+    padding: 10px 0px 0px 0px;
+}
+.navbar-nav {
+    margin: 0px -15px 0px -15px;
+}
+#bloc-6{
+    background-color: black;
+}
+#bloc-6 h1, #bloc-6 p{
+    color: white!important;
+}
+
+#bloc-6 h1{
+    font-size: 2.8em;
+}
+
+#bloc-6 p{
+    font-size: 1.2em;
+}
+#bloc-7 .bloc-lg{
+    padding: 70px 20px
+}
+.map{
+    padding-bottom: 50px;
+}
+
+.contact-info{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.2em;
+}
+/*---------------------------------*/
+/*---------------------------------*/
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -703,6 +747,15 @@ h3 {
     }
     .bg-banniere {
         height: 650px;
+    }
+    #bloc-0 .site-navigation{
+        display: none;
+    }
+    #bloc-0 .back{
+        display: inline;
+    }
+    #bloc-0 .bloc-sm{
+        padding: 10px 0px 10px 0px;
     }
 }
 
@@ -910,6 +963,10 @@ h3 {
 
     #bloc-3-what-i-do .bloc-lg{
         padding: 0px;
+    }
+
+    .bg-dots-bg {
+        background-position: left 100% bottom 65%;
     }
 }
 
