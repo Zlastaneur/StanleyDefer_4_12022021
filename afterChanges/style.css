@@ -707,6 +707,7 @@ h3 {
     text-align: center;
     font-size: 1.2em;
 }
+
 /*---------------------------------*/
 /*---------------------------------*/
 
@@ -822,6 +823,15 @@ h3 {
 }
 
 @media (max-width: 767px) {
+    #bloc-8 .col-sm-3{
+        width: 24%;
+        display: inline-block;
+    }
+
+
+    #bloc-8 .social{
+        text-align: center;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
