@@ -699,6 +699,10 @@ h3 {
     padding: 70px 20px
 }
 .map{
+    max-width: 1000px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
     padding-bottom: 50px;
 }
 
